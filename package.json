@@ -1,6 +1,6 @@
 {
   "name": "vue-remove-scroll",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Disable scroll outside of a child node",
   "type": "module",
   "license": "MIT",
