@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-npm i -D vue-remove-scroll
+npm i vue-remove-scroll
 ```
 
 ## Usage
