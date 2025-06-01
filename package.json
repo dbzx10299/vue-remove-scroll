@@ -1,0 +1,40 @@
+{
+  "name": "vue-remove-scroll",
+  "version": "0.0.1",
+  "description": "Disable scroll outside of a child node",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/dbzx10299/vue-remove-scroll#readme",
+  "bugs": {
+    "url": "https://github.com/dbzx10299/vue-remove-scroll/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbzx10299/vue-remove-scroll.git"
+  },
+  "author": "David Bender<https://github.com/dbzx10299>",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "tsdown --watch",
+    "build": "tsdown",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "tsdown": "^0.12.5",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  }
+}
